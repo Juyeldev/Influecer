@@ -23,9 +23,16 @@ body{
     border-radius: 41px;
     border: 0;
     transition: background-color 0.5s;
+
 }
 
-.primari-btn, .btn:hover{
+    
+.primari-btn:hover{
+    background-color: blue;
+    
+}
+
+.btn:hover{
     background-color: blue;
 }
 /* -----Header Style ----Here */
@@ -269,3 +276,79 @@ span{
 }
 
 
+/* -----Media  query-----start----Here */
+
+/* for Mobile-----Devise */
+
+@media only screen and (max-width: 576px) {
+    .nav{
+        width: 100%;
+         flex-direction: column;
+       /* background-color: yellow; */
+    }
+    .nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        width: 100%;
+        /* background-color: tomato; */
+    }
+    
+    .banner-section{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+.other-web-sit{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 290px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap
+    
+}
+.popular-product-section {
+    width: 100%;
+}
+.products{
+    grid-row-gap: 15px;
+    margin-left: 40px;
+    grid-template-columns: repeat(1, 1fr)
+   
+}
+.see-more{
+    text-align: center;
+}
+
+.feature-section{
+    text-align: center;
+    gap: 60px;
+    flex-direction: column-reverse;
+}
+   
+}
+
+/* 
+/* For-----Medium/tablet---devise */
+
+/* @media only screen and (min-width: 577px) and (max-width: 992px) {
+    .header{
+        width: 100%;
+        margin: 0 20px;
+    }
+    nav{
+        margin-top: 30px;
+    }}
