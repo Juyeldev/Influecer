@@ -1,0 +1,271 @@
+
+/* --------font--- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap');
+
+
+ /* ------Common style --Here */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.primari-btn{
+    width: 196px;
+    height: 44px;
+    color: white;
+    background: #E02C6D;
+    border-radius: 41px;
+    border: 0;
+    transition: background-color 0.5s;
+}
+
+.primari-btn, .btn:hover{
+    background-color: blue;
+}
+/* -----Header Style ----Here */
+
+header{
+    width: 1047px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 87px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-tittle{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 34px;
+    font-weight: 600;
+  font-size: 16px;
+}
+
+/* -----baneer---section---style---here */
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-item{
+    height: 270px;
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.banner-description{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+
+.banner-img{
+    background-image: url(../images/Circle\ design.svg);
+    padding: 20px;
+}
+
+
+/* Other----web site --- section */
+
+.other-web-sit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    width: 1110px;
+   height: 110px;
+    
+}
+
+.web-img{
+    width: 84px;
+    height: 26px;
+}
+/* ---Popular--Product----Start--here */
+
+.popular-product-section{
+    width: 1047px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.popular-product-tittle{
+    width: 262px;
+    height: 70px;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-bottom: 50px;
+
+}
+.product{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.product-img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin: 20px auto;
+    
+}
+.product-detail-body{
+    margin: 20px;
+    /* background-color:red; */
+}
+.product-tittle{
+    width: 151px;
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+   
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 122px;
+    height: 32px;
+}
+span{
+    color: #5E6366;
+    font-weight: 700;
+     font-size: 14px;
+     line-height: 22px;
+}
+.fa-star, .fa-star-half-stroke{
+    width: 16px;
+    height: 16px;
+    color: rgb(194, 194, 22);
+}
+
+.product-description{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    line-height: 143%;
+}
+.see-more{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    height: 30px;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+}
+/* -----Popular --product--section--End */
+
+
+.feature-section{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    align-items:center;
+    justify-content: space-around;
+    gap: 96px;
+    margin-top: 100px;
+    
+}
+.btn{
+    width: 196px;
+    height: 44px;
+    color: white;
+    background: #E02C6D;
+    border-radius: 2px;
+    border: 0;
+    transition: background-color 0.5s;
+
+}
+
+/* ----Footer---section---- */
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: black;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.footer-item{
+    text-align: center;
+    width: 280px;
+
+}
+
+.footer-tittle{
+    font-weight: 700;
+   font-size: 24px;
+   margin-top: 10px;
+}
+
+.footer-description{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.icon{
+    margin-right: 10px;
+    margin-top: 17px;
+    
+    
+}
+
+
